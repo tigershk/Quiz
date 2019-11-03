@@ -9,7 +9,6 @@ class App extends Component {
     return (
       <MyProvider>
         <div>
-          <p>Quiz</p>
           <Score />
           <Question />
         </div>
