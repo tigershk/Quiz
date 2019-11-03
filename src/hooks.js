@@ -1,6 +1,11 @@
 import React, { createContext, useState, useContext } from 'react';
 
-export const MyContext = createContext();
+export const MyContext = createContext([]);
+
+export const useMoney = () => {
+  const { money, addMoney } = useContext(MyContext);
+  return { money, addMoney };
+};
 
 export const MyProvider = ({ children }) => {
   const [fifty, setFifty] = useState(false)
