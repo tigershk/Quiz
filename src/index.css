@@ -15,11 +15,12 @@ code {
 .score {
   background-color: navy;
   color:paleturquoise;
-  height:40vh;
+  /* height:40vh; */
   text-align: center;
 }
 .question{
+  flex-direction:column;
   background-color: midnightblue;
   color:white;
-  height: 60vh;
+  /* height: 60vh; */
 }

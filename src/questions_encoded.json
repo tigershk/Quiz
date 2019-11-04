@@ -1,0 +1,185 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "General%20Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which%20company%20did%20Valve%20cooperate%20with%20in%20the%20creation%20of%20the%20Vive%3F",
+      "correct_answer": "HTC",
+      "incorrect_answers": [
+        "Oculus",
+        "Google",
+        "Razer"
+      ]
+    },
+    {
+      "category": "General%20Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What%20is%20the%20first%20book%20of%20the%20Old%20Testament%3F",
+      "correct_answer": "Genesis",
+      "incorrect_answers": [
+        "Exodus",
+        "Leviticus",
+        "Numbers"
+      ]
+    },
+    {
+      "category": "General%20Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "A%20doctor%20with%20a%20PhD%20is%20a%20doctor%20of%20what%3F",
+      "correct_answer": "Philosophy",
+      "incorrect_answers": [
+        "Psychology",
+        "Phrenology",
+        "Physical%20Therapy"
+      ]
+    },
+    {
+      "category": "General%20Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which%20language%20is%20NOT%20Indo-European%3F",
+      "correct_answer": "Hungarian",
+      "incorrect_answers": [
+        "Russian",
+        "Greek",
+        "Latvian"
+      ]
+    },
+    {
+      "category": "General%20Knowledge",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which%20film%20star%20has%20his%20statue%20in%20Leicester%20Square%3F",
+      "correct_answer": "Charlie%20Chaplin",
+      "incorrect_answers": [
+        "Paul%20Newman",
+        "Rowan%20Atkinson%20",
+        "Alfred%20Hitchcock"
+      ]
+    },
+    {
+      "category": "General%20Knowledge",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which%20of%20the%20following%20chemicals%20are%20found%20in%20eggplant%20seeds%3F",
+      "correct_answer": "Nicotine",
+      "incorrect_answers": [
+        "Mescaline",
+        "Cyanide",
+        "Psilocybin"
+      ]
+    },
+    {
+      "category": "General%20Knowledge",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which%20of%20the%20following%20is%20an%20existing%20family%20in%20%22The%20Sims%22%3F",
+      "correct_answer": "The%20Goth%20Family",
+      "incorrect_answers": [
+        "The%20Family",
+        "The%20Simoleon%20Family",
+        "The%20Proud%20Family"
+      ]
+    },
+    {
+      "category": "General%20Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What%20is%20the%20Portuguese%20word%20for%20%22Brazil%22%3F",
+      "correct_answer": "Brasil",
+      "incorrect_answers": [
+        "Brazil",
+        "Brasilia",
+        "Bras%C3%ADl"
+      ]
+    },
+    {
+      "category": "General%20Knowledge",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "According%20to%20the%202014-2015%20Australian%20Bureau%20of%20Statistics%2C%20what%20percentage%20of%20Australians%20were%20born%20overseas%3F",
+      "correct_answer": "28%25",
+      "incorrect_answers": [
+        "13%25",
+        "20%25",
+        "7%25"
+      ]
+    },
+    {
+      "category": "General%20Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "When%20did%20the%20website%20%22Facebook%22%20launch%3F",
+      "correct_answer": "2004",
+      "incorrect_answers": [
+        "2005",
+        "2003",
+        "2006"
+      ]
+    },
+    {
+      "category": "General%20Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What%20company%20developed%20the%20vocaloid%20Hatsune%20Miku%3F",
+      "correct_answer": "Crypton%20Future%20Media",
+      "incorrect_answers": [
+        "Sega",
+        "Sony",
+        "Yamaha%20Corporation"
+      ]
+    },
+    {
+      "category": "General%20Knowledge",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "The%20Quadrangularis%20Reversum%20is%20best%20described%20as%20which%20of%20the%20following%3F",
+      "correct_answer": "A%20percussion%20instrument",
+      "incorrect_answers": [
+        "A%20building%20in%20Oxford%20University",
+        "A%20chess%20move",
+        "A%20geometric%20theorem"
+      ]
+    },
+    {
+      "category": "General%20Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What%20nuts%20are%20used%20in%20the%20production%20of%20marzipan%3F",
+      "correct_answer": "Almonds",
+      "incorrect_answers": [
+        "Peanuts",
+        "Walnuts",
+        "Pistachios"
+      ]
+    },
+    {
+      "category": "General%20Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What%20is%20the%20highest%20number%20of%20Michelin%20stars%20a%20restaurant%20can%20receive%3F",
+      "correct_answer": "Three",
+      "incorrect_answers": [
+        "Four",
+        "Five",
+        "Six"
+      ]
+    },
+    {
+      "category": "General%20Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "When%20one%20is%20%22envious%22%2C%20they%20are%20said%20to%20be%20what%20color%3F",
+      "correct_answer": "Green",
+      "incorrect_answers": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    }
+  ]
+}
