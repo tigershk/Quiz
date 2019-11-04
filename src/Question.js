@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
+
+export const Question = ({ questions }) => {
+  const [questionNumber, setQuestionNumber] = useState(1);
 
 
-export class Question extends Component {
-
-  render() {
-    return (
-      <div className="question">
-
-      </div>
-    )
-  }
+  return (
+    <>
+      {questions.map(question => <p>{question[1]}</p>)}
+      {console.log('Questions inside Question component', questions)}
+    </>
+  )
 }

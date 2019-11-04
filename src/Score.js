@@ -1,5 +1,5 @@
 import React from 'react';
-import { MyContext, useMoney } from './hooks'
+import { MyContext, useMoney } from './context'
 
 
 export const Score = () => {

@@ -1,37 +1,31 @@
-import React, { createContext, useState, useContext } from 'react';
+import React, { useState, useEffect } from "react";
 
-export const MyContext = createContext([]);
 
-export const useMoney = () => {
-  const { money, addMoney } = useContext(MyContext);
-  return { money, addMoney };
-};
+export const Questions = () => {
+  const [hasError, setErrors] = useState();
+  const [questions, setQuestions] = useState();
 
-export const MyProvider = ({ children }) => {
-  const [fifty, setFifty] = useState(false)
-  const [audience, setAudience] = useState(false)
-  const [friend, setFriend] = useState(false)
-  const [money, setMoney] = useState(0)
 
-  const moneyLadder = [0, 100, 200, 300, 500, 1000, 2000, 4000, 8000, 16000, 32000, 64000, 125000, 250000, 500000, 1000000]
+  async function fetchData() {
+    const data = await fetch("https://opentdb.com/api.php?amount=15&category=9&type=multiple&encode=url3986");
+    data
+      .json()
+      .then(data => setQuestions(data.results))
+      .catch(error => setErrors(error))
+  }
+
+  useEffect(() => {
+    fetchData()
+  }, [])
 
   return (
-    <MyContext.Provider value={{
-      fifty,
-      useFifty: () => setFifty(true),
+    <div>
+      {console.log('Questions after sorting', questions)}
+      <hr />
+      <span>Has error: {JSON.stringify(hasError)}</span>
+    </div>
+  );
 
-      audience,
-      useAudience: () => setAudience(true),
 
-      friend,
-      useFriend: () => setFriend(true),
-
-      money,
-      useMoney: () => setMoney(moneyLadder[(moneyLadder.indexOf(money) + 1)])
-    }
-    }>
-      {children}
-    </MyContext.Provider>
-  )
-}
-
+} // outermost Questions component
+export default Questions;

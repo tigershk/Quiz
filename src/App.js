@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import { MyProvider } from './hooks'
-import { Question } from './Question'
+import { MyProvider } from './context'
+import { Questions } from './Questions'
 import { Score } from './Score'
 
 class App extends Component {
@@ -10,7 +10,7 @@ class App extends Component {
       <MyProvider>
         <div>
           <Score />
-          <Question />
+          <Questions />
         </div>
       </MyProvider>
     );
